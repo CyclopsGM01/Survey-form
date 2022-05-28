@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <header class="head">
+      <h1 id="title">Galib Mahin Survey Form</h1>
+      <p id="description">Thank you for taking the time to help me improving my Developing</p>
+    </header>
+      <form id="survey-form">
+        <fieldset>
+        <label id="name-label">Name<input type="text" id="name" placeholder="Enter your name" required/></label>
+        <label id="email-label">Email<input type="email" id="email" placeholder="Enter your Email" required/></label>
+        <label id="number-label">Age(optional)<input type="number" id="number" placeholder="Age" min="13" max="70"/></label>
+        <label>Which option best describes your current role?
+            <select id="dropdown">
+              <option value="">Select your role</option>
+              <option value="1">Student</option>
+              <option value="2">Job Holder</option>
+              <option value="3">Business man</option>
+              <option value="4">others</option>
+            </select>
+        </label>
+        </fieldset>
+        <fieldset>Would you hire me as a WebDeveloper?
+        <label>
+          <input type="radio" name="hire" value="yes" class="in">Definitely
+        </label>
+        <label>
+          <input type="radio" name="hire" value="maybe" class="in">Maybe
+        </label>
+        <label>
+          <input type="radio" name="hire" value="not-sure" class="in">Not sure
+        </label>
+        </fieldset>
+        <fieldset>Why would you hire me?
+            <select id="hire-select">
+              <option value="">Select an option</option>
+              <option value="1">Liked your design</option>
+              <option value="2">You are new & learning</option>
+              <option value="3">You have good color sense</option>
+              <option value="4">Sorry I didn't like it</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>What would you like to see improved? (Check all that apply)
+          <label>
+            <input type="checkbox" value="1" class="in">Front-end Projects
+            </label>
+            <label>
+            <input type="checkbox" value="2" class="in">Back-end Projects
+            </label>
+            <label>
+            <input type="checkbox" value="3" class="in">Data Visualization
+            </label>
+            <label>
+            <input type="checkbox" value="4" class="in">Make Projects for Free
+            </label>
+            <label>
+            <input type="checkbox" value="5" class="in">Make Video Tutorial
+            </label>
+            <label>
+            <input type="checkbox" value="6" class="in">Be Active in Discord
+            </label>
+            <label>
+            <input type="checkbox" value="7" class="in">Make Regular YouTube Contents
+            </label>
+        </fieldset>
+        <fieldset>
+          <label>Any comments or suggestions?<textarea name="suggestion"  cols="30" rows="5" placeholder="Enter your comment here..."></textarea></label>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit"/>
+      </form>
+  </body>
+</html>
