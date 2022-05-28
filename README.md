@@ -1,6 +1,6 @@
 # Survery Form (Day-4)
 
-This is my first servery Form that i made in my Day 4 of Learing HTML&CSS. This is just my begning!
+This is my first servery Form that i made in my Day 4 of Learing HTML & CSS. This is just my begning! All the cods are written by me, no copy paste.
  
  
 # Visit now
